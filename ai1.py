@@ -1,15 +1,15 @@
 import webbrowser;
 import time;
 
-juttu2 = "date"
-juttu = "time"
-teksti = str.lower(input(">>>"))
+thing2 = "date"
+thing = "time"
+text = str.lower(input(">>>"))
 localtime = time.asctime( time.localtime(time.time()) )
-if teksti == "hi":
+if text == "hi":
     print("Hello!\n")
-elif teksti == "Hello":
+elif text == "Hello":
     print("Hi!\n")
-elif juttu in teksti:
+elif thing in text:
     print("The time and date is:", localtime)
-elif juttu2 in teksti:
+elif thing2 in text:
     print("The time and date is:", localtime)
